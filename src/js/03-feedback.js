@@ -40,13 +40,3 @@ window.addEventListener('load', () => {
         messageEl.value = formState.message;
       }
     });
-
-
-
-    // window.addEventListener('load', () => {
-    //     const formState = JSON.parse(localStorage.getItem(KEY));
-    //     if (formState) {
-    //       emailEl.value = formState.email;
-    //       messageEl.value = formState.message;
-    //     }
-    //   });
