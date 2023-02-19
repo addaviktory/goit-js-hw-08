@@ -1,5 +1,4 @@
 import throttle from 'lodash.throttle';
-
 const formEl = document.querySelector('.feedback-form');
 const emailEl = formEl.querySelector('input');
 const messageEl = formEl.querySelector('textarea');
@@ -41,4 +40,13 @@ window.addEventListener('load', () => {
         messageEl.value = formState.message;
       }
     });
-    
+
+
+
+    // window.addEventListener('load', () => {
+    //     const formState = JSON.parse(localStorage.getItem(KEY));
+    //     if (formState) {
+    //       emailEl.value = formState.email;
+    //       messageEl.value = formState.message;
+    //     }
+    //   });
